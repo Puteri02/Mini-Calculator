@@ -27,6 +27,7 @@ function App() {
         setValue((prev) => prev + key);
       } else if (key === 'Enter') {
         // for calculation (equals)
+        
         calculate();
       } else if (key === 'Backspace') {
         // Backspace key
