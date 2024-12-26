@@ -10,7 +10,8 @@
 .calculator {
   padding: 20px;
   border-radius: 10px;
-  background-color: lime;
+  /* background-color: lime; */
+  background-color: #DFD3C3;
 }
 
 form input {
@@ -19,7 +20,8 @@ form input {
   width: 60px;
   height: 60px;
   font-size: 16px;
-  background-color: orange;
+  /* background-color: orange; */
+  background-color: #88AB8E;
   margin: 2px;
   border-radius: 10px;
   color: white;
@@ -27,7 +29,7 @@ form input {
   cursor: pointer;
 }
 
-form input[type="button"]:hover {
+form input:hover {
   background-color: orange;
 }
 
@@ -42,7 +44,17 @@ form .display input {
   flex: 1;
   font-size: 40px;
   padding: 5px 10px;
-  background-color: purple;
+  background-color: #96B6C5;
+}
+
+form input.ac {
+  /* width: 123px; */
+  background-color: lime;
+}
+
+form input.de {
+  /* width: 123px; */
+  background-color: rgb(255, 153, 0);
 }
 
 form input.equal {
